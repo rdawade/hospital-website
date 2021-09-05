@@ -25,7 +25,7 @@ SECRET_KEY = '9ov2==j(kc6vr^7^2cz@61f8tds7q3weqe5vleh97k+kmj)ob9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -130,7 +130,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-LOGOUT_REDIRECT_URL = '/'
+
 
 
 
